@@ -9,3 +9,4 @@ i)Technologies used->react-typescript,antd,mui,redux,redux-persists
 ii)editing a widget will be available after you add it
 iii)added feature add widget, remove a widget, editing widget, search
 
+Hosted Link -> https://idyllic-lolly-a8a41e.netlify.app/

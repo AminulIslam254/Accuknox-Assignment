@@ -74,6 +74,7 @@ const Home = () => {
             key: '1',
             label: 'CSPM',
             children: <div>
+                <p>Search Bar</p>
                 <Input onChange={(e)=>{
                     setSearchedText((prevState)=>{
                         return{
@@ -82,6 +83,7 @@ const Home = () => {
                         }
                     })
                 }} placeholder='Type anything to search' />
+                <p>Added Widget List in CSPM</p>
                 <div key={renderKey}>
                     {
                         storedData[0] && storedData[0].map((val, ind) => {
@@ -102,6 +104,7 @@ const Home = () => {
             key: '2',
             label: 'CWPP',
             children: <div>
+                <p>Search Bar</p>
                 <Input onChange={(e)=>{
                     setSearchedText((prevState)=>{
                         return{
@@ -110,6 +113,7 @@ const Home = () => {
                         }
                     })
                 }} placeholder='Type anything to search' />
+                <p>Added Widget List in CWPP</p>
                 <div key={renderKey}>
                     {
                         storedData[1] && storedData[1].map((val, ind) => {
@@ -130,6 +134,7 @@ const Home = () => {
             key: '3',
             label: 'IMAGE',
             children: <div>
+                <p>Search Bar</p>
                 <Input onChange={(e)=>{
                     setSearchedText((prevState)=>{
                         return{
@@ -138,6 +143,7 @@ const Home = () => {
                         }
                     })
                 }} placeholder='Type anything to search' />
+                <p>Added Widget List in IMAGE</p>
                 <div key={renderKey}>
                     {
                         storedData[2] && storedData[2].map((val, ind) => {
@@ -158,6 +164,7 @@ const Home = () => {
             key: '4',
             label: 'TICKET',
             children: <div>
+                <p>Search Bar</p>
                 <Input onChange={(e)=>{
                     setSearchedText((prevState)=>{
                         return{
@@ -166,6 +173,7 @@ const Home = () => {
                         }
                     })
                 }} placeholder='Type anything to search' />
+                <p>Added Widget List in TICKET</p>
                 <div key={renderKey}>
                     {
                         storedData[3] && storedData[3].map((val, ind) => {
